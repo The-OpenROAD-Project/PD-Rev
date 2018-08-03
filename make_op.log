@@ -1,0 +1,2212 @@
+In file included from /home/software/boost_1_55_0/boost/mpl/aux_/integral_wrapper.hpp:22:0,
+                 from /home/software/boost_1_55_0/boost/mpl/int.hpp:20,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/template_arity_spec.hpp:10,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/type_trait_def.hpp:14,
+                 from /home/software/boost_1_55_0/boost/type_traits/add_const.hpp:16,
+                 from /home/software/boost_1_55_0/boost/type_traits.hpp:13,
+                 from /home/software/boost_1_55_0/boost/geometry/core/cs.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/concept_check.hpp: In function ‘void boost::function_requires(Model*)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check45’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:45:7: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+       BOOST_CONCEPT_ASSERT((Model));
+       ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp: In destructor ‘boost::AdaptableGenerator<Func, Return>::~AdaptableGenerator()’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check453’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:453:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<result_type, Return>));
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp: In destructor ‘boost::AdaptableUnaryFunction<Func, Return, Arg>::~AdaptableUnaryFunction()’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check465’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:465:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<result_type, Return>));
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check466’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:466:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<Arg, argument_type>));
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp: In destructor ‘boost::AdaptableBinaryFunction<Func, Return, First, Second>::~AdaptableBinaryFunction()’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check484’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:484:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<result_type, Return>));
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check485’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:485:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<First, first_argument_type>));
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check486’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:486:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<Second, second_argument_type>));
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp: In destructor ‘boost::InputIterator<TT>::~InputIterator()’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check517’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:517:9: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+         BOOST_CONCEPT_ASSERT((SignedInteger<difference_type>));
+         ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check518’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:518:9: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+         BOOST_CONCEPT_ASSERT((Convertible<iterator_category, std::input_iterator_tag>));
+         ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp: In destructor ‘boost::ForwardIterator<TT>::~ForwardIterator()’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check551’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:548:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp: In destructor ‘boost::BidirectionalIterator<TT>::~BidirectionalIterator()’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check579’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:576:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp: In destructor ‘boost::RandomAccessIterator<TT>::~RandomAccessIterator()’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check609’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:606:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp: In destructor ‘boost::Container<C>::~Container()’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check653’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:653:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((InputIterator<const_iterator>));
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp: In destructor ‘boost::Mutable_Container<C>::~Mutable_Container()’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check681’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:680:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check683’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:683:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((InputIterator<iterator>));
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp: In destructor ‘boost::ForwardContainer<C>::~ForwardContainer()’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check703’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:700:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp: In destructor ‘boost::Mutable_ForwardContainer<C>::~Mutable_ForwardContainer()’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check716’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:713:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp: In destructor ‘boost::ReversibleContainer<C>::~ReversibleContainer()’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check731’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:729:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check733’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:733:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((BidirectionalIterator<const_reverse_iterator>));
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp: In destructor ‘boost::Mutable_ReversibleContainer<C>::~Mutable_ReversibleContainer()’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check755’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:755:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Mutable_BidirectionalIterator<iterator>));
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check756’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:756:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Mutable_BidirectionalIterator<reverse_iterator>));
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp: In destructor ‘boost::RandomAccessContainer<C>::~RandomAccessContainer()’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check776’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:773:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp: In destructor ‘boost::Mutable_RandomAccessContainer<C>::~Mutable_RandomAccessContainer()’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check800’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:800:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Mutable_RandomAccessIterator<typename self::iterator>));
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check801’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:801:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Mutable_RandomAccessIterator<typename self::reverse_iterator>));
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp: In destructor ‘boost::AssociativeContainer<C>::~AssociativeContainer()’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check905’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:905:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((BinaryPredicate<key_compare,key_type,key_type>));
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check908’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept_check.hpp:908:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((BinaryPredicate<value_compare,value_type_,value_type_>));
+           ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/range/algorithm/equal.hpp: In function ‘bool boost::range::equal(const SinglePassRange1&, const SinglePassRange2&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check172’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/range/concepts.hpp:92:45: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     #define BOOST_RANGE_CONCEPT_ASSERT( x ) BOOST_CONCEPT_ASSERT( x )
+                                             ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/range/algorithm/equal.hpp:172:13: note: in expansion of macro ‘BOOST_RANGE_CONCEPT_ASSERT’
+             BOOST_RANGE_CONCEPT_ASSERT(( SinglePassRangeConcept<const SinglePassRange1> ));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check173’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/range/concepts.hpp:92:45: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     #define BOOST_RANGE_CONCEPT_ASSERT( x ) BOOST_CONCEPT_ASSERT( x )
+                                             ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/range/algorithm/equal.hpp:173:13: note: in expansion of macro ‘BOOST_RANGE_CONCEPT_ASSERT’
+             BOOST_RANGE_CONCEPT_ASSERT(( SinglePassRangeConcept<const SinglePassRange2> ));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/range/algorithm/equal.hpp: In function ‘bool boost::range::equal(const SinglePassRange1&, const SinglePassRange2&, BinaryPredicate)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check185’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/range/concepts.hpp:92:45: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     #define BOOST_RANGE_CONCEPT_ASSERT( x ) BOOST_CONCEPT_ASSERT( x )
+                                             ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/range/algorithm/equal.hpp:185:13: note: in expansion of macro ‘BOOST_RANGE_CONCEPT_ASSERT’
+             BOOST_RANGE_CONCEPT_ASSERT(( SinglePassRangeConcept<const SinglePassRange1> ));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check186’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/range/concepts.hpp:92:45: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     #define BOOST_RANGE_CONCEPT_ASSERT( x ) BOOST_CONCEPT_ASSERT( x )
+                                             ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/range/algorithm/equal.hpp:186:13: note: in expansion of macro ‘BOOST_RANGE_CONCEPT_ASSERT’
+             BOOST_RANGE_CONCEPT_ASSERT(( SinglePassRangeConcept<const SinglePassRange2> ));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/smart_ptr/shared_ptr.hpp:32:0,
+                 from /home/software/boost_1_55_0/boost/shared_ptr.hpp:17,
+                 from /home/software/boost_1_55_0/boost/format/alt_sstream.hpp:21,
+                 from /home/software/boost_1_55_0/boost/format/internals.hpp:23,
+                 from /home/software/boost_1_55_0/boost/format.hpp:38,
+                 from /home/software/boost_1_55_0/boost/math/policies/error_handling.hpp:31,
+                 from /home/software/boost_1_55_0/boost/math/special_functions/trunc.hpp:14,
+                 from /home/software/boost_1_55_0/boost/math/constants/calculate_constants.hpp:11,
+                 from /home/software/boost_1_55_0/boost/math/constants/constants.hpp:330,
+                 from /home/software/boost_1_55_0/boost/geometry/util/math.hpp:20,
+                 from /home/software/boost_1_55_0/boost/geometry/core/radian_access.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/smart_ptr/detail/shared_count.hpp: At global scope:
+/home/software/boost_1_55_0/boost/smart_ptr/detail/shared_count.hpp:323:33: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+                                 ^~~~~~~~
+In file included from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/locale_conv.h:41:0,
+                 from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/locale:43,
+                 from /home/software/boost_1_55_0/boost/lexical_cast.hpp:47,
+                 from /home/software/boost_1_55_0/boost/math/constants/constants.hpp:18,
+                 from /home/software/boost_1_55_0/boost/geometry/util/math.hpp:20,
+                 from /home/software/boost_1_55_0/boost/geometry/core/radian_access.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/shared_ptr.hpp:17:0,
+                 from /home/software/boost_1_55_0/boost/format/alt_sstream.hpp:21,
+                 from /home/software/boost_1_55_0/boost/format/internals.hpp:23,
+                 from /home/software/boost_1_55_0/boost/format.hpp:38,
+                 from /home/software/boost_1_55_0/boost/math/policies/error_handling.hpp:31,
+                 from /home/software/boost_1_55_0/boost/math/special_functions/trunc.hpp:14,
+                 from /home/software/boost_1_55_0/boost/math/constants/calculate_constants.hpp:11,
+                 from /home/software/boost_1_55_0/boost/math/constants/constants.hpp:330,
+                 from /home/software/boost_1_55_0/boost/geometry/util/math.hpp:20,
+                 from /home/software/boost_1_55_0/boost/geometry/core/radian_access.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/smart_ptr/shared_ptr.hpp:247:65: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+ template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+                                                                 ^~~~~~~~
+In file included from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/locale_conv.h:41:0,
+                 from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/locale:43,
+                 from /home/software/boost_1_55_0/boost/lexical_cast.hpp:47,
+                 from /home/software/boost_1_55_0/boost/math/constants/constants.hpp:18,
+                 from /home/software/boost_1_55_0/boost/geometry/util/math.hpp:20,
+                 from /home/software/boost_1_55_0/boost/geometry/core/radian_access.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/shared_ptr.hpp:17:0,
+                 from /home/software/boost_1_55_0/boost/format/alt_sstream.hpp:21,
+                 from /home/software/boost_1_55_0/boost/format/internals.hpp:23,
+                 from /home/software/boost_1_55_0/boost/format.hpp:38,
+                 from /home/software/boost_1_55_0/boost/math/policies/error_handling.hpp:31,
+                 from /home/software/boost_1_55_0/boost/math/special_functions/trunc.hpp:14,
+                 from /home/software/boost_1_55_0/boost/math/constants/calculate_constants.hpp:11,
+                 from /home/software/boost_1_55_0/boost/math/constants/constants.hpp:330,
+                 from /home/software/boost_1_55_0/boost/geometry/util/math.hpp:20,
+                 from /home/software/boost_1_55_0/boost/geometry/core/radian_access.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/smart_ptr/shared_ptr.hpp:446:31: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+                               ^~~~~~~~
+In file included from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/locale_conv.h:41:0,
+                 from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/locale:43,
+                 from /home/software/boost_1_55_0/boost/lexical_cast.hpp:47,
+                 from /home/software/boost_1_55_0/boost/math/constants/constants.hpp:18,
+                 from /home/software/boost_1_55_0/boost/geometry/util/math.hpp:20,
+                 from /home/software/boost_1_55_0/boost/geometry/core/radian_access.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/shared_ptr.hpp:17:0,
+                 from /home/software/boost_1_55_0/boost/format/alt_sstream.hpp:21,
+                 from /home/software/boost_1_55_0/boost/format/internals.hpp:23,
+                 from /home/software/boost_1_55_0/boost/format.hpp:38,
+                 from /home/software/boost_1_55_0/boost/math/policies/error_handling.hpp:31,
+                 from /home/software/boost_1_55_0/boost/math/special_functions/trunc.hpp:14,
+                 from /home/software/boost_1_55_0/boost/math/constants/calculate_constants.hpp:11,
+                 from /home/software/boost_1_55_0/boost/math/constants/constants.hpp:330,
+                 from /home/software/boost_1_55_0/boost/geometry/util/math.hpp:20,
+                 from /home/software/boost_1_55_0/boost/geometry/core/radian_access.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/smart_ptr/shared_ptr.hpp:459:22: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+                      ^~~~~~~~
+In file included from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/locale_conv.h:41:0,
+                 from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/locale:43,
+                 from /home/software/boost_1_55_0/boost/lexical_cast.hpp:47,
+                 from /home/software/boost_1_55_0/boost/math/constants/constants.hpp:18,
+                 from /home/software/boost_1_55_0/boost/geometry/util/math.hpp:20,
+                 from /home/software/boost_1_55_0/boost/geometry/core/radian_access.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/shared_ptr.hpp:17:0,
+                 from /home/software/boost_1_55_0/boost/format/alt_sstream.hpp:21,
+                 from /home/software/boost_1_55_0/boost/format/internals.hpp:23,
+                 from /home/software/boost_1_55_0/boost/format.hpp:38,
+                 from /home/software/boost_1_55_0/boost/math/policies/error_handling.hpp:31,
+                 from /home/software/boost_1_55_0/boost/math/special_functions/trunc.hpp:14,
+                 from /home/software/boost_1_55_0/boost/math/constants/calculate_constants.hpp:11,
+                 from /home/software/boost_1_55_0/boost/math/constants/constants.hpp:330,
+                 from /home/software/boost_1_55_0/boost/geometry/util/math.hpp:20,
+                 from /home/software/boost_1_55_0/boost/geometry/core/radian_access.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/smart_ptr/shared_ptr.hpp:525:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> & r )
+                                  ^~~~~~~~
+In file included from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/locale_conv.h:41:0,
+                 from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/locale:43,
+                 from /home/software/boost_1_55_0/boost/lexical_cast.hpp:47,
+                 from /home/software/boost_1_55_0/boost/math/constants/constants.hpp:18,
+                 from /home/software/boost_1_55_0/boost/geometry/util/math.hpp:20,
+                 from /home/software/boost_1_55_0/boost/geometry/core/radian_access.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/shared_ptr.hpp:17:0,
+                 from /home/software/boost_1_55_0/boost/format/alt_sstream.hpp:21,
+                 from /home/software/boost_1_55_0/boost/format/internals.hpp:23,
+                 from /home/software/boost_1_55_0/boost/format.hpp:38,
+                 from /home/software/boost_1_55_0/boost/math/policies/error_handling.hpp:31,
+                 from /home/software/boost_1_55_0/boost/math/special_functions/trunc.hpp:14,
+                 from /home/software/boost_1_55_0/boost/math/constants/calculate_constants.hpp:11,
+                 from /home/software/boost_1_55_0/boost/math/constants/constants.hpp:330,
+                 from /home/software/boost_1_55_0/boost/geometry/util/math.hpp:20,
+                 from /home/software/boost_1_55_0/boost/geometry/core/radian_access.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/smart_ptr/shared_ptr.hpp:534:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> && r )
+                                  ^~~~~~~~
+In file included from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/locale_conv.h:41:0,
+                 from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/locale:43,
+                 from /home/software/boost_1_55_0/boost/lexical_cast.hpp:47,
+                 from /home/software/boost_1_55_0/boost/math/constants/constants.hpp:18,
+                 from /home/software/boost_1_55_0/boost/geometry/util/math.hpp:20,
+                 from /home/software/boost_1_55_0/boost/geometry/core/radian_access.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/shared_ptr.hpp:17:0,
+                 from /home/software/boost_1_55_0/boost/format/alt_sstream.hpp:21,
+                 from /home/software/boost_1_55_0/boost/format/internals.hpp:23,
+                 from /home/software/boost_1_55_0/boost/format.hpp:38,
+                 from /home/software/boost_1_55_0/boost/math/policies/error_handling.hpp:31,
+                 from /home/software/boost_1_55_0/boost/math/special_functions/trunc.hpp:14,
+                 from /home/software/boost_1_55_0/boost/math/constants/calculate_constants.hpp:11,
+                 from /home/software/boost_1_55_0/boost/math/constants/constants.hpp:330,
+                 from /home/software/boost_1_55_0/boost/geometry/util/math.hpp:20,
+                 from /home/software/boost_1_55_0/boost/geometry/core/radian_access.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/smart_ptr/shared_ptr.hpp: In member function ‘boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)’:
+/home/software/boost_1_55_0/boost/smart_ptr/shared_ptr.hpp:536:38: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+                                      ^~~~~~~~
+In file included from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/locale_conv.h:41:0,
+                 from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/locale:43,
+                 from /home/software/boost_1_55_0/boost/lexical_cast.hpp:47,
+                 from /home/software/boost_1_55_0/boost/math/constants/constants.hpp:18,
+                 from /home/software/boost_1_55_0/boost/geometry/util/math.hpp:20,
+                 from /home/software/boost_1_55_0/boost/geometry/core/radian_access.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/mpl/aux_/integral_wrapper.hpp:22:0,
+                 from /home/software/boost_1_55_0/boost/mpl/int.hpp:20,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/template_arity_spec.hpp:10,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/type_trait_def.hpp:14,
+                 from /home/software/boost_1_55_0/boost/type_traits/add_const.hpp:16,
+                 from /home/software/boost_1_55_0/boost/type_traits.hpp:13,
+                 from /home/software/boost_1_55_0/boost/geometry/core/cs.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/geometry/util/for_each_coordinate.hpp: In function ‘void boost::geometry::for_each_coordinate(Point&, Op)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check69’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/util/for_each_coordinate.hpp:69:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::Point<Point>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/util/for_each_coordinate.hpp: In function ‘Op boost::geometry::for_each_coordinate(const Point&, Op)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check82’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/util/for_each_coordinate.hpp:82:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::ConstPoint<Point>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp: In function ‘void boost::geometry::add_value(Point&, typename boost::geometry::detail::param<Point>::type)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check126’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp:126:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::Point<Point>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp: In function ‘void boost::geometry::add_point(Point1&, const Point2&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check142’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp:142:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::Point<Point2>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check143’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp:143:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::ConstPoint<Point2>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp: In function ‘void boost::geometry::subtract_value(Point&, typename boost::geometry::detail::param<Point>::type)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check158’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp:158:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::Point<Point>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp: In function ‘void boost::geometry::subtract_point(Point1&, const Point2&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check174’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp:174:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::Point<Point2>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check175’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp:175:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::ConstPoint<Point2>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp: In function ‘void boost::geometry::multiply_value(Point&, typename boost::geometry::detail::param<Point>::type)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check190’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp:190:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::Point<Point>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp: In function ‘void boost::geometry::multiply_point(Point1&, const Point2&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check207’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp:207:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::Point<Point2>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check208’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp:208:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::ConstPoint<Point2>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp: In function ‘void boost::geometry::divide_value(Point&, typename boost::geometry::detail::param<Point>::type)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check223’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp:223:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::Point<Point>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp: In function ‘void boost::geometry::divide_point(Point1&, const Point2&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check239’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp:239:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::Point<Point2>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check240’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp:240:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::ConstPoint<Point2>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp: In function ‘void boost::geometry::assign_value(Point&, typename boost::geometry::detail::param<Point>::type)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check255’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp:255:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::Point<Point>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp: In function ‘void boost::geometry::assign_point(Point1&, const Point2&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check271’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp:271:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::Point<Point2>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check272’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/arithmetic.hpp:272:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::ConstPoint<Point2>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/dot_product.hpp: In function ‘typename boost::geometry::select_coordinate_type<T1, T2>::type boost::geometry::dot_product(const P1&, const P2&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check70’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/dot_product.hpp:70:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::ConstPoint<P1>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check71’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/dot_product.hpp:71:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::ConstPoint<P2>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/determinant.hpp: In function ‘ReturnType boost::geometry::detail::determinant(const U&, const V&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check60’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/determinant.hpp:60:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::ConstPoint<U>) );
+     ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check61’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/arithmetic/determinant.hpp:61:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (concept::ConstPoint<V>) );
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/tuple/tuple.hpp:33:0,
+                 from /home/software/boost_1_55_0/boost/geometry/policies/relate/tupled.hpp:15,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/intersection.hpp:17,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/strategies.hpp:25,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:35,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/tuple/detail/tuple_basic.hpp: In function ‘typename boost::tuples::access_traits<typename boost::tuples::element<N, boost::tuples::cons<HT, TT> >::type>::const_type boost::tuples::get(const boost::tuples::cons<HT, TT>&)’:
+/home/software/boost_1_55_0/boost/tuple/detail/tuple_basic.hpp:228:45: warning: typedef ‘cons_element’ locally defined but not used [-Wunused-local-typedefs]
+   typedef BOOST_DEDUCED_TYPENAME impl::type cons_element;
+                                             ^~~~~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/mpl/aux_/integral_wrapper.hpp:22:0,
+                 from /home/software/boost_1_55_0/boost/mpl/int.hpp:20,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/template_arity_spec.hpp:10,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/type_trait_def.hpp:14,
+                 from /home/software/boost_1_55_0/boost/type_traits/add_const.hpp:16,
+                 from /home/software/boost_1_55_0/boost/type_traits.hpp:13,
+                 from /home/software/boost_1_55_0/boost/geometry/core/cs.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/geometry/strategies/concepts/within_concept.hpp: In static member function ‘static void boost::geometry::concept::WithinStrategyPolygonal<Strategy>::checker::apply(const ApplyMethod&, const ResultMethod&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check59’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/strategies/concepts/within_concept.hpp:56:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT
+             ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check64’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/strategies/concepts/within_concept.hpp:61:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT
+             ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/strategies/concepts/within_concept.hpp: In static member function ‘static void boost::geometry::concept::WithinStrategyPointBox<Strategy>::checker::apply(const ApplyMethod&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check134’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/strategies/concepts/within_concept.hpp:131:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT
+             ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check139’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/strategies/concepts/within_concept.hpp:136:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT
+             ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/strategies/concepts/within_concept.hpp: In static member function ‘static void boost::geometry::concept::WithinStrategyBoxBox<Strategy>::checker::apply(const ApplyMethod&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check198’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/strategies/concepts/within_concept.hpp:195:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT
+             ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check203’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/strategies/concepts/within_concept.hpp:200:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT
+             ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/range/algorithm/copy.hpp: In function ‘OutputIterator boost::range::copy(const SinglePassRange&, OutputIterator)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check33’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/range/concepts.hpp:92:45: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     #define BOOST_RANGE_CONCEPT_ASSERT( x ) BOOST_CONCEPT_ASSERT( x )
+                                             ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/range/algorithm/copy.hpp:33:5: note: in expansion of macro ‘BOOST_RANGE_CONCEPT_ASSERT’
+     BOOST_RANGE_CONCEPT_ASSERT(( SinglePassRangeConcept<const SinglePassRange> ));
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/strategies/cartesian/distance_pythagoras.hpp: In static member function ‘static typename boost::geometry::strategy::distance::comparable::pythagoras<CalculationType>::calculation_type<Point1, Point2>::type boost::geometry::strategy::distance::comparable::pythagoras<CalculationType>::apply(const Point1&, const Point2&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check96’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/strategies/cartesian/distance_pythagoras.hpp:96:9: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+         BOOST_CONCEPT_ASSERT( (concept::ConstPoint<Point1>) );
+         ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check97’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/strategies/cartesian/distance_pythagoras.hpp:97:9: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+         BOOST_CONCEPT_ASSERT( (concept::ConstPoint<Point2>) );
+         ^~~~~~~~~~~~~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/geometry/strategies/spherical/distance_cross_track.hpp:24:0,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/strategies.hpp:43,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:35,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/geometry/strategies/concepts/distance_concept.hpp: In static member function ‘static void boost::geometry::concept::PointDistanceStrategy<Strategy, Point1, Point2>::checker::apply(ApplyMethod)’:
+/home/software/boost_1_55_0/boost/geometry/strategies/concepts/distance_concept.hpp:75:25: warning: typedef ‘tag’ locally defined but not used [-Wunused-local-typedefs]
+                 >::type tag;
+                         ^~~
+In file included from /home/software/boost_1_55_0/boost/mpl/aux_/integral_wrapper.hpp:22:0,
+                 from /home/software/boost_1_55_0/boost/mpl/int.hpp:20,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/template_arity_spec.hpp:10,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/type_trait_def.hpp:14,
+                 from /home/software/boost_1_55_0/boost/type_traits/add_const.hpp:16,
+                 from /home/software/boost_1_55_0/boost/type_traits.hpp:13,
+                 from /home/software/boost_1_55_0/boost/geometry/core/cs.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/geometry/strategies/concepts/distance_concept.hpp: In static member function ‘static void boost::geometry::concept::PointSegmentDistanceStrategy<Strategy, Point, PointOfSegment>::checker::apply(ApplyMethod)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check146’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/strategies/concepts/distance_concept.hpp:143:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT
+             ^
+/home/software/boost_1_55_0/boost/geometry/strategies/spherical/distance_cross_track.hpp: In member function ‘typename boost::geometry::strategy::distance::cross_track<CalculationType, Strategy>::return_type<Point, PointOfSegment>::type boost::geometry::strategy::distance::cross_track<CalculationType, Strategy>::apply(const Point&, const PointOfSegment&, const PointOfSegment&) const’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check103’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/strategies/spherical/distance_cross_track.hpp:100:9: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+         BOOST_CONCEPT_ASSERT
+         ^
+In file included from /home/software/boost_1_55_0/boost/numeric/ublas/vector.hpp:21:0,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/transform/matrix_transformers.hpp:32,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/strategies.hpp:54,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:35,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/vector_assign.hpp: In function ‘void boost::numeric::ublas::vector_assign(V&, const boost::numeric::ublas::vector_expression<E>&, boost::numeric::ublas::sparse_proxy_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/vector_assign.hpp:382:39: warning: typedef ‘reference’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename V::reference reference;
+                                       ^~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/numeric/ublas/vector.hpp:21:0,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/transform/matrix_transformers.hpp:32,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/strategies.hpp:54,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:35,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/vector_assign.hpp: In function ‘void boost::numeric::ublas::vector_swap(V&, boost::numeric::ublas::vector_expression<E>&, boost::numeric::ublas::sparse_proxy_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/vector_assign.hpp:516:40: warning: typedef ‘value_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename V::value_type value_type;
+                                        ^~~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/numeric/ublas/matrix.hpp:17:0,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/transform/matrix_transformers.hpp:33,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/strategies.hpp:54,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:35,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/numeric/ublas/matrix_expression.hpp: In member function ‘void boost::numeric::ublas::matrix_binary<E1, E2, F>::const_iterator1::increment(boost::numeric::ublas::sparse_bidirectional_iterator_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/matrix_expression.hpp:1929:17: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+                 if (it2_ != it2_end_)
+                 ^~
+/home/software/boost_1_55_0/boost/numeric/ublas/matrix_expression.hpp:1932:21: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+                     if (it2_ != it2_end_) {
+                     ^~
+In file included from /home/software/boost_1_55_0/boost/numeric/ublas/matrix.hpp:18:0,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/transform/matrix_transformers.hpp:33,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/strategies.hpp:54,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:35,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp: In function ‘void boost::numeric::ublas::matrix_assign(M&, const boost::numeric::ublas::matrix_expression<E>&, boost::numeric::ublas::packed_proxy_tag, boost::numeric::ublas::row_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp:644:40: warning: typedef ‘value_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename M::value_type value_type;
+                                        ^~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp: In function ‘void boost::numeric::ublas::matrix_assign(M&, const boost::numeric::ublas::matrix_expression<E>&, boost::numeric::ublas::packed_proxy_tag, boost::numeric::ublas::column_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp:774:40: warning: typedef ‘value_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename M::value_type value_type;
+                                        ^~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp: In function ‘void boost::numeric::ublas::matrix_assign(M&, const boost::numeric::ublas::matrix_expression<E>&, boost::numeric::ublas::sparse_proxy_tag, boost::numeric::ublas::row_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp:969:40: warning: typedef ‘value_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename M::value_type value_type;
+                                        ^~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp: In function ‘void boost::numeric::ublas::matrix_assign(M&, const boost::numeric::ublas::matrix_expression<E>&, boost::numeric::ublas::sparse_proxy_tag, boost::numeric::ublas::column_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp:1090:40: warning: typedef ‘value_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename M::value_type value_type;
+                                        ^~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp: In function ‘void boost::numeric::ublas::matrix_swap(M&, boost::numeric::ublas::matrix_expression<E>&, boost::numeric::ublas::dense_proxy_tag, boost::numeric::ublas::row_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp:1254:39: warning: typedef ‘size_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename M::size_type size_type;
+                                       ^~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp: In function ‘void boost::numeric::ublas::matrix_swap(M&, boost::numeric::ublas::matrix_expression<E>&, boost::numeric::ublas::dense_proxy_tag, boost::numeric::ublas::column_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp:1280:39: warning: typedef ‘size_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename M::size_type size_type;
+                                       ^~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp: In function ‘void boost::numeric::ublas::matrix_swap(M&, boost::numeric::ublas::matrix_expression<E>&, boost::numeric::ublas::packed_proxy_tag, boost::numeric::ublas::row_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp:1306:39: warning: typedef ‘size_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename M::size_type size_type;
+                                       ^~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp: In function ‘void boost::numeric::ublas::matrix_swap(M&, boost::numeric::ublas::matrix_expression<E>&, boost::numeric::ublas::packed_proxy_tag, boost::numeric::ublas::column_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp:1332:39: warning: typedef ‘size_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename M::size_type size_type;
+                                       ^~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp: In function ‘void boost::numeric::ublas::matrix_swap(M&, boost::numeric::ublas::matrix_expression<E>&, boost::numeric::ublas::sparse_proxy_tag, boost::numeric::ublas::row_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp:1360:40: warning: typedef ‘value_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename M::value_type value_type;
+                                        ^~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp: In function ‘void boost::numeric::ublas::matrix_swap(M&, boost::numeric::ublas::matrix_expression<E>&, boost::numeric::ublas::sparse_proxy_tag, boost::numeric::ublas::column_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/detail/matrix_assign.hpp:1485:40: warning: typedef ‘value_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename M::value_type value_type;
+                                        ^~~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp:16:0,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/transform/inverse_transformer.hpp:21,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/strategies.hpp:56,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:35,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp: In function ‘V& boost::numeric::ublas::axpy_prod(const boost::numeric::ublas::matrix_expression<E2>&, const boost::numeric::ublas::vector_expression<E>&, V&, boost::numeric::ublas::packed_random_access_iterator_tag, boost::numeric::ublas::row_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:132:26: warning: typedef ‘expression2_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const E2 expression2_type;
+                          ^~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp: In function ‘V& boost::numeric::ublas::axpy_prod(const boost::numeric::ublas::matrix_expression<E2>&, const boost::numeric::ublas::vector_expression<E>&, V&, boost::numeric::ublas::packed_random_access_iterator_tag, boost::numeric::ublas::column_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:162:26: warning: typedef ‘expression2_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const E2 expression2_type;
+                          ^~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp: In function ‘V& boost::numeric::ublas::axpy_prod(const boost::numeric::ublas::matrix_expression<E2>&, const boost::numeric::ublas::vector_expression<E>&, V&, boost::numeric::ublas::sparse_bidirectional_iterator_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:191:26: warning: typedef ‘expression1_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const E1 expression1_type;
+                          ^~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:193:39: warning: typedef ‘size_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename V::size_type size_type;
+                                       ^~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp: In function ‘V& boost::numeric::ublas::axpy_prod(const boost::numeric::ublas::vector_expression<E2>&, const boost::numeric::ublas::matrix_expression<E2>&, V&, boost::numeric::ublas::packed_random_access_iterator_tag, boost::numeric::ublas::column_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:353:26: warning: typedef ‘expression1_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const E1 expression1_type;
+                          ^~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp: In function ‘V& boost::numeric::ublas::axpy_prod(const boost::numeric::ublas::vector_expression<E2>&, const boost::numeric::ublas::matrix_expression<E2>&, V&, boost::numeric::ublas::packed_random_access_iterator_tag, boost::numeric::ublas::row_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:383:26: warning: typedef ‘expression1_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const E1 expression1_type;
+                          ^~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp: In function ‘V& boost::numeric::ublas::axpy_prod(const boost::numeric::ublas::vector_expression<E2>&, const boost::numeric::ublas::matrix_expression<E2>&, V&, boost::numeric::ublas::sparse_bidirectional_iterator_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:414:26: warning: typedef ‘expression2_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const E2 expression2_type;
+                          ^~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:415:39: warning: typedef ‘size_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename V::size_type size_type;
+                                       ^~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp: In function ‘M& boost::numeric::ublas::axpy_prod(const boost::numeric::ublas::matrix_expression<E2>&, const boost::numeric::ublas::matrix_expression<E2>&, M&, TRI, boost::numeric::ublas::dense_proxy_tag, boost::numeric::ublas::row_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:504:19: warning: typedef ‘matrix_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef M matrix_type;
+                   ^~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:505:26: warning: typedef ‘expression1_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const E1 expression1_type;
+                          ^~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:506:26: warning: typedef ‘expression2_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const E2 expression2_type;
+                          ^~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:508:40: warning: typedef ‘value_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename M::value_type value_type;
+                                        ^~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp: In function ‘M& boost::numeric::ublas::axpy_prod(const boost::numeric::ublas::matrix_expression<E2>&, const boost::numeric::ublas::matrix_expression<E2>&, M&, TRI, boost::numeric::ublas::sparse_proxy_tag, boost::numeric::ublas::row_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:533:19: warning: typedef ‘matrix_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef M matrix_type;
+                   ^~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:537:39: warning: typedef ‘size_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename M::size_type size_type;
+                                       ^~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:538:40: warning: typedef ‘value_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename M::value_type value_type;
+                                        ^~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp: In function ‘M& boost::numeric::ublas::axpy_prod(const boost::numeric::ublas::matrix_expression<E2>&, const boost::numeric::ublas::matrix_expression<E2>&, M&, TRI, boost::numeric::ublas::dense_proxy_tag, boost::numeric::ublas::column_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:583:19: warning: typedef ‘matrix_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef M matrix_type;
+                   ^~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:584:26: warning: typedef ‘expression1_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const E1 expression1_type;
+                          ^~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:585:26: warning: typedef ‘expression2_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const E2 expression2_type;
+                          ^~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:587:40: warning: typedef ‘value_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename M::value_type value_type;
+                                        ^~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp: In function ‘M& boost::numeric::ublas::axpy_prod(const boost::numeric::ublas::matrix_expression<E2>&, const boost::numeric::ublas::matrix_expression<E2>&, M&, TRI, boost::numeric::ublas::sparse_proxy_tag, boost::numeric::ublas::column_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:612:19: warning: typedef ‘matrix_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef M matrix_type;
+                   ^~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:616:39: warning: typedef ‘size_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename M::size_type size_type;
+                                       ^~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:617:40: warning: typedef ‘value_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename M::value_type value_type;
+                                        ^~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp: In function ‘M& boost::numeric::ublas::opb_prod(const boost::numeric::ublas::matrix_expression<E2>&, const boost::numeric::ublas::matrix_expression<E2>&, M&, boost::numeric::ublas::dense_proxy_tag, boost::numeric::ublas::row_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:741:19: warning: typedef ‘matrix_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef M matrix_type;
+                   ^~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:742:26: warning: typedef ‘expression1_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const E1 expression1_type;
+                          ^~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:743:26: warning: typedef ‘expression2_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const E2 expression2_type;
+                          ^~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp: In function ‘M& boost::numeric::ublas::opb_prod(const boost::numeric::ublas::matrix_expression<E2>&, const boost::numeric::ublas::matrix_expression<E2>&, M&, boost::numeric::ublas::dense_proxy_tag, boost::numeric::ublas::column_major_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:772:19: warning: typedef ‘matrix_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef M matrix_type;
+                   ^~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:773:26: warning: typedef ‘expression1_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const E1 expression1_type;
+                          ^~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/operation.hpp:774:26: warning: typedef ‘expression2_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const E2 expression2_type;
+                          ^~~~~~~~~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp:20:0,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/transform/inverse_transformer.hpp:21,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/strategies.hpp:56,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:35,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/numeric/ublas/triangular.hpp: In function ‘void boost::numeric::ublas::inplace_solve(const boost::numeric::ublas::matrix_expression<E>&, boost::numeric::ublas::vector_expression<E2>&, boost::numeric::ublas::lower_tag, boost::numeric::ublas::column_major_tag, boost::numeric::ublas::dense_proxy_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/triangular.hpp:1862:46: warning: typedef ‘difference_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename E2::difference_type difference_type;
+                                              ^~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/triangular.hpp: In function ‘void boost::numeric::ublas::inplace_solve(const boost::numeric::ublas::matrix_expression<E>&, boost::numeric::ublas::vector_expression<E2>&, boost::numeric::ublas::lower_tag, boost::numeric::ublas::column_major_tag, boost::numeric::ublas::unknown_storage_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/triangular.hpp:1917:46: warning: typedef ‘difference_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename E2::difference_type difference_type;
+                                              ^~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/triangular.hpp: In function ‘void boost::numeric::ublas::inplace_solve(const boost::numeric::ublas::matrix_expression<E>&, boost::numeric::ublas::vector_expression<E2>&, boost::numeric::ublas::lower_tag, boost::numeric::ublas::row_major_tag, boost::numeric::ublas::dense_proxy_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/triangular.hpp:1946:46: warning: typedef ‘difference_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename E2::difference_type difference_type;
+                                              ^~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/triangular.hpp: In function ‘void boost::numeric::ublas::inplace_solve(const boost::numeric::ublas::matrix_expression<E>&, boost::numeric::ublas::vector_expression<E2>&, boost::numeric::ublas::lower_tag, boost::numeric::ublas::row_major_tag, boost::numeric::ublas::packed_proxy_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/triangular.hpp:1972:46: warning: typedef ‘difference_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename E2::difference_type difference_type;
+                                              ^~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/triangular.hpp: In function ‘void boost::numeric::ublas::inplace_solve(const boost::numeric::ublas::matrix_expression<E>&, boost::numeric::ublas::vector_expression<E2>&, boost::numeric::ublas::lower_tag, boost::numeric::ublas::row_major_tag, boost::numeric::ublas::unknown_storage_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/triangular.hpp:2001:46: warning: typedef ‘difference_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename E2::difference_type difference_type;
+                                              ^~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/triangular.hpp: In function ‘void boost::numeric::ublas::inplace_solve(const boost::numeric::ublas::matrix_expression<E>&, boost::numeric::ublas::matrix_expression<E2>&, boost::numeric::ublas::lower_tag, boost::numeric::ublas::dense_proxy_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/triangular.hpp:2377:46: warning: typedef ‘difference_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename E2::difference_type difference_type;
+                                              ^~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/triangular.hpp: In function ‘void boost::numeric::ublas::inplace_solve(const boost::numeric::ublas::matrix_expression<E>&, boost::numeric::ublas::matrix_expression<E2>&, boost::numeric::ublas::lower_tag, boost::numeric::ublas::unknown_storage_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/triangular.hpp:2438:46: warning: typedef ‘difference_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename E2::difference_type difference_type;
+                                              ^~~~~~~~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/geometry/strategies/transform/inverse_transformer.hpp:21:0,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/strategies.hpp:56,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:35,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp: In function ‘void boost::numeric::ublas::swap_rows(const PM&, MV&, boost::numeric::ublas::vector_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp:66:41: warning: typedef ‘value_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename MV::value_type value_type;
+                                         ^~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp: In function ‘void boost::numeric::ublas::swap_rows(const PM&, MV&, boost::numeric::ublas::matrix_tag)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp:78:41: warning: typedef ‘value_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename MV::value_type value_type;
+                                         ^~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp: In function ‘typename M::size_type boost::numeric::ublas::lu_factorize(M&)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp:96:19: warning: typedef ‘matrix_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef M matrix_type;
+                   ^~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp: In function ‘typename M::size_type boost::numeric::ublas::lu_factorize(M&, PM&)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp:132:19: warning: typedef ‘matrix_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef M matrix_type;
+                   ^~~~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/geometry/strategies/transform/inverse_transformer.hpp:21:0,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/strategies.hpp:56,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:35,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp: In function ‘void boost::numeric::ublas::lu_substitute(const M&, boost::numeric::ublas::vector_expression<E2>&)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp:268:25: warning: typedef ‘const_matrix_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const M const_matrix_type;
+                         ^~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp:269:48: warning: typedef ‘vector_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef vector<typename E::value_type> vector_type;
+                                                ^~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp: In function ‘void boost::numeric::ublas::lu_substitute(const M&, boost::numeric::ublas::matrix_expression<E2>&)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp:286:25: warning: typedef ‘const_matrix_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const M const_matrix_type;
+                         ^~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp:287:48: warning: typedef ‘matrix_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef matrix<typename E::value_type> matrix_type;
+                                                ^~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp: In function ‘void boost::numeric::ublas::lu_substitute(boost::numeric::ublas::vector_expression<E>&, const M&)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp:309:25: warning: typedef ‘const_matrix_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const M const_matrix_type;
+                         ^~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp:310:48: warning: typedef ‘vector_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef vector<typename E::value_type> vector_type;
+                                                ^~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp: In function ‘void boost::numeric::ublas::lu_substitute(boost::numeric::ublas::matrix_expression<E>&, const M&)’:
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp:327:25: warning: typedef ‘const_matrix_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef const M const_matrix_type;
+                         ^~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/lu.hpp:328:48: warning: typedef ‘matrix_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef matrix<typename E::value_type> matrix_type;
+                                                ^~~~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/mpl/aux_/integral_wrapper.hpp:22:0,
+                 from /home/software/boost_1_55_0/boost/mpl/int.hpp:20,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/template_arity_spec.hpp:10,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/type_trait_def.hpp:14,
+                 from /home/software/boost_1_55_0/boost/type_traits/add_const.hpp:16,
+                 from /home/software/boost_1_55_0/boost/type_traits.hpp:13,
+                 from /home/software/boost_1_55_0/boost/geometry/core/cs.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/geometry/algorithms/area.hpp: In static member function ‘static typename Strategy::return_type boost::geometry::detail::area::ring_area<Direction, Closure>::apply(const Ring&, const Strategy&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check81’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/algorithms/area.hpp:81:9: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+         BOOST_CONCEPT_ASSERT( (geometry::concept::AreaStrategy<Strategy>) );
+         ^
+In file included from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:41:0,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/geometry/algorithms/centroid.hpp: In function ‘void boost::geometry::centroid(const Geometry&, Point&, const Strategy&)’:
+/home/software/boost_1_55_0/boost/geometry/algorithms/centroid.hpp:335:49: warning: typedef ‘point_type’ locally defined but not used [-Wunused-local-typedefs]
+     typedef typename point_type<Geometry>::type point_type;
+                                                 ^~~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/mpl/aux_/integral_wrapper.hpp:22:0,
+                 from /home/software/boost_1_55_0/boost/mpl/int.hpp:20,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/template_arity_spec.hpp:10,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/type_trait_def.hpp:14,
+                 from /home/software/boost_1_55_0/boost/type_traits/add_const.hpp:16,
+                 from /home/software/boost_1_55_0/boost/type_traits.hpp:13,
+                 from /home/software/boost_1_55_0/boost/geometry/core/cs.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/geometry/algorithms/convex_hull.hpp: In function ‘void boost::geometry::convex_hull(const Geometry&, OutputGeometry&, const Strategy&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check155’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/algorithms/convex_hull.hpp:155:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (geometry::concept::ConvexHullStrategy<Strategy>) );
+     ^
+/home/software/boost_1_55_0/boost/geometry/algorithms/convex_hull.hpp: In function ‘OutputIterator boost::geometry::detail::convex_hull::convex_hull_insert(const Geometry&, OutputIterator, const Strategy&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check206’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/algorithms/convex_hull.hpp:206:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT( (geometry::concept::ConvexHullStrategy<Strategy>) );
+     ^
+In file included from /home/software/boost_1_55_0/boost/geometry/algorithms/detail/overlay/intersection_insert.hpp:27:0,
+                 from /home/software/boost_1_55_0/boost/geometry/algorithms/difference.hpp:14,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:48,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/geometry/algorithms/detail/overlay/get_intersection_points.hpp: In function ‘void boost::geometry::get_intersection_points(const Geometry1&, const Geometry2&, Turns&)’:
+/home/software/boost_1_55_0/boost/geometry/algorithms/detail/overlay/get_intersection_points.hpp:108:47: warning: typedef ‘segment_intersection_strategy_type’ locally defined but not used [-Wunused-local-typedefs]
+         >::segment_intersection_strategy_type segment_intersection_strategy_type;
+                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/geometry/algorithms/detail/overlay/overlay.hpp:31:0,
+                 from /home/software/boost_1_55_0/boost/geometry/algorithms/detail/overlay/intersection_insert.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry/algorithms/difference.hpp:14,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:48,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/geometry/algorithms/reverse.hpp: In static member function ‘static void boost::geometry::detail::reverse::polygon_reverse::apply(Polygon&)’:
+/home/software/boost_1_55_0/boost/geometry/algorithms/reverse.hpp:50:61: warning: typedef ‘ring_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename geometry::ring_type<Polygon>::type ring_type;
+                                                             ^~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/mpl/aux_/integral_wrapper.hpp:22:0,
+                 from /home/software/boost_1_55_0/boost/mpl/int.hpp:20,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/template_arity_spec.hpp:10,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/type_trait_def.hpp:14,
+                 from /home/software/boost_1_55_0/boost/type_traits/add_const.hpp:16,
+                 from /home/software/boost_1_55_0/boost/type_traits.hpp:13,
+                 from /home/software/boost_1_55_0/boost/geometry/core/cs.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/range/algorithm/reverse.hpp: In function ‘BidirectionalRange& boost::range::reverse(BidirectionalRange&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check32’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/range/concepts.hpp:92:45: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     #define BOOST_RANGE_CONCEPT_ASSERT( x ) BOOST_CONCEPT_ASSERT( x )
+                                             ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/range/algorithm/reverse.hpp:32:5: note: in expansion of macro ‘BOOST_RANGE_CONCEPT_ASSERT’
+     BOOST_RANGE_CONCEPT_ASSERT(( BidirectionalRangeConcept<BidirectionalRange> ));
+     ^
+/home/software/boost_1_55_0/boost/range/algorithm/reverse.hpp: In function ‘const BidirectionalRange& boost::range::reverse(const BidirectionalRange&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check41’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/range/concepts.hpp:92:45: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     #define BOOST_RANGE_CONCEPT_ASSERT( x ) BOOST_CONCEPT_ASSERT( x )
+                                             ^~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/range/algorithm/reverse.hpp:41:5: note: in expansion of macro ‘BOOST_RANGE_CONCEPT_ASSERT’
+     BOOST_RANGE_CONCEPT_ASSERT(( BidirectionalRangeConcept<const BidirectionalRange> ));
+     ^
+In file included from /home/software/boost_1_55_0/boost/geometry/algorithms/intersection.hpp:15:0,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:55,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/geometry/algorithms/intersects.hpp: In function ‘bool boost::geometry::intersects(const Geometry&)’:
+/home/software/boost_1_55_0/boost/geometry/algorithms/intersects.hpp:59:47: warning: typedef ‘segment_intersection_strategy_type’ locally defined but not used [-Wunused-local-typedefs]
+         >::segment_intersection_strategy_type segment_intersection_strategy_type;
+                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/geometry/algorithms/simplify.hpp:32:0,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:65,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/geometry/strategies/concepts/simplify_concept.hpp: In static member function ‘static void boost::geometry::concept::SimplifyStrategy<Strategy, Point>::checker::apply(ApplyMethod)’:
+/home/software/boost_1_55_0/boost/geometry/strategies/concepts/simplify_concept.hpp:54:25: warning: typedef ‘parameter_types’ locally defined but not used [-Wunused-local-typedefs]
+                 >::type parameter_types;
+                         ^~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/strategies/concepts/simplify_concept.hpp:61:25: warning: typedef ‘base_index’ locally defined but not used [-Wunused-local-typedefs]
+                 >::type base_index;
+                         ^~~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/mpl/aux_/integral_wrapper.hpp:22:0,
+                 from /home/software/boost_1_55_0/boost/mpl/int.hpp:20,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/template_arity_spec.hpp:10,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/type_trait_def.hpp:14,
+                 from /home/software/boost_1_55_0/boost/type_traits/add_const.hpp:16,
+                 from /home/software/boost_1_55_0/boost/type_traits.hpp:13,
+                 from /home/software/boost_1_55_0/boost/geometry/core/cs.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check66’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/strategies/concepts/simplify_concept.hpp:63:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT
+             ^
+In file included from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:65:0,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/geometry/algorithms/simplify.hpp: In static member function ‘static void boost::geometry::detail::simplify::simplify_polygon::apply(const Polygon&, Polygon&, const Distance&, const Strategy&)’:
+/home/software/boost_1_55_0/boost/geometry/algorithms/simplify.hpp:121:51: warning: typedef ‘ring_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename ring_type<Polygon>::type ring_type;
+                                                   ^~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/mpl/aux_/integral_wrapper.hpp:22:0,
+                 from /home/software/boost_1_55_0/boost/mpl/int.hpp:20,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/template_arity_spec.hpp:10,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/type_trait_def.hpp:14,
+                 from /home/software/boost_1_55_0/boost/type_traits/add_const.hpp:16,
+                 from /home/software/boost_1_55_0/boost/type_traits.hpp:13,
+                 from /home/software/boost_1_55_0/boost/geometry/core/cs.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/geometry/algorithms/simplify.hpp: In function ‘void boost::geometry::simplify(const Geometry&, Geometry&, const Distance&, const Strategy&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check257’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/algorithms/simplify.hpp:255:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT(
+     ^
+/home/software/boost_1_55_0/boost/geometry/algorithms/simplify.hpp: In function ‘void boost::geometry::detail::simplify::simplify_insert(const Geometry&, OutputIterator, const Distance&, const Strategy&)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check329’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/algorithms/simplify.hpp:327:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     BOOST_CONCEPT_ASSERT(
+     ^
+In file included from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:67:0,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/geometry/algorithms/touches.hpp: In function ‘bool boost::geometry::touches(const Geometry1&, const Geometry2&)’:
+/home/software/boost_1_55_0/boost/geometry/algorithms/touches.hpp:161:11: warning: typedef ‘policy_type’ locally defined but not used [-Wunused-local-typedefs]
+         > policy_type;
+           ^~~~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:68:0,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/geometry/algorithms/transform.hpp: In static member function ‘static bool boost::geometry::detail::transform::transform_polygon::apply(const Polygon1&, Polygon2&, const Strategy&)’:
+/home/software/boost_1_55_0/boost/geometry/algorithms/transform.hpp:152:52: warning: typedef ‘ring1_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename ring_type<Polygon1>::type ring1_type;
+                                                    ^~~~~~~~~~
+/home/software/boost_1_55_0/boost/geometry/algorithms/transform.hpp:153:52: warning: typedef ‘ring2_type’ locally defined but not used [-Wunused-local-typedefs]
+         typedef typename ring_type<Polygon2>::type ring2_type;
+                                                    ^~~~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/bind/mem_fn.hpp:25:0,
+                 from /home/software/boost_1_55_0/boost/mem_fn.hpp:22,
+                 from /home/software/boost_1_55_0/boost/function/detail/prologue.hpp:18,
+                 from /home/software/boost_1_55_0/boost/function.hpp:24,
+                 from /home/software/boost_1_55_0/boost/algorithm/string/detail/find_iterator.hpp:18,
+                 from /home/software/boost_1_55_0/boost/algorithm/string/find_iterator.hpp:24,
+                 from /home/software/boost_1_55_0/boost/algorithm/string/iter_find.hpp:27,
+                 from /home/software/boost_1_55_0/boost/algorithm/string/split.hpp:16,
+                 from /home/software/boost_1_55_0/boost/algorithm/string.hpp:23,
+                 from /home/software/boost_1_55_0/boost/geometry/io/wkt/read.hpp:22,
+                 from /home/software/boost_1_55_0/boost/geometry/multi/io/wkt/read.hpp:24,
+                 from /home/software/boost_1_55_0/boost/geometry/multi/io/wkt/wkt.hpp:17,
+                 from /home/software/boost_1_55_0/boost/geometry/multi/multi.hpp:75,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:75,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/get_pointer.hpp: At global scope:
+/home/software/boost_1_55_0/boost/get_pointer.hpp:27:40: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+ template<class T> T * get_pointer(std::auto_ptr<T> const& p)
+                                        ^~~~~~~~
+In file included from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/locale_conv.h:41:0,
+                 from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/locale:43,
+                 from /home/software/boost_1_55_0/boost/lexical_cast.hpp:47,
+                 from /home/software/boost_1_55_0/boost/math/constants/constants.hpp:18,
+                 from /home/software/boost_1_55_0/boost/geometry/util/math.hpp:20,
+                 from /home/software/boost_1_55_0/boost/geometry/core/radian_access.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/software/boost_1_55_0/boost/mpl/aux_/integral_wrapper.hpp:22:0,
+                 from /home/software/boost_1_55_0/boost/mpl/int.hpp:20,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/template_arity_spec.hpp:10,
+                 from /home/software/boost_1_55_0/boost/type_traits/detail/type_trait_def.hpp:14,
+                 from /home/software/boost_1_55_0/boost/type_traits/add_const.hpp:16,
+                 from /home/software/boost_1_55_0/boost/type_traits.hpp:13,
+                 from /home/software/boost_1_55_0/boost/geometry/core/cs.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/algorithm/string/iter_find.hpp: In function ‘SequenceSequenceT& boost::algorithm::iter_find(SequenceSequenceT&, RangeT&, FinderT)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check81’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/algorithm/string/iter_find.hpp:77:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/software/boost_1_55_0/boost/algorithm/string/iter_find.hpp: In function ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&, FinderT)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check151’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/algorithm/string/iter_find.hpp:148:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp: In function ‘OutputIteratorT boost::algorithm::find_format_copy(OutputIteratorT, const RangeT&, FinderT, FormatterT)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check69’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp:65:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check74’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp:70:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp: In function ‘SequenceT boost::algorithm::find_format_copy(const SequenceT&, FinderT, FormatterT)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check103’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp:99:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check108’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp:104:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp: In function ‘void boost::algorithm::find_format(SequenceT&, FinderT, FormatterT)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check139’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp:135:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check144’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp:140:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp: In function ‘OutputIteratorT boost::algorithm::find_format_all_copy(OutputIteratorT, const RangeT&, FinderT, FormatterT)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check188’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp:184:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check193’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp:189:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp: In function ‘SequenceT boost::algorithm::find_format_all_copy(const SequenceT&, FinderT, FormatterT)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check223’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp:219:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check228’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp:224:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp: In function ‘void boost::algorithm::find_format_all(SequenceT&, FinderT, FormatterT)’:
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check261’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp:257:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check266’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/software/boost_1_55_0/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/software/boost_1_55_0/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/algorithm/string/find_format.hpp:262:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+In file included from /home/software/boost_1_55_0/boost/scoped_ptr.hpp:14:0,
+                 from /home/software/boost_1_55_0/boost/geometry/io/svg/svg_mapper.hpp:21,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:90,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/smart_ptr/scoped_ptr.hpp: At global scope:
+/home/software/boost_1_55_0/boost/smart_ptr/scoped_ptr.hpp:68:31: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     explicit scoped_ptr( std::auto_ptr<T> p ) BOOST_NOEXCEPT : px( p.release() )
+                               ^~~~~~~~
+In file included from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/locale_conv.h:41:0,
+                 from /home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/locale:43,
+                 from /home/software/boost_1_55_0/boost/lexical_cast.hpp:47,
+                 from /home/software/boost_1_55_0/boost/math/constants/constants.hpp:18,
+                 from /home/software/boost_1_55_0/boost/geometry/util/math.hpp:20,
+                 from /home/software/boost_1_55_0/boost/geometry/core/radian_access.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:28,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/tool/gcc/gcc-6.2.0/include/c++/6.2.0/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+graph.cpp: In constructor ‘Graph::Graph(unsigned int, unsigned int, float, float, float, float, unsigned int, float, float, unsigned int, unsigned int, std::vector<unsigned int>&, std::vector<unsigned int>&)’:
+graph.cpp:133:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if(nodes[j].x == x[i] && nodes[j].y == y[i])
+                      
+graph.cpp:133:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if(nodes[j].x == x[i] && nodes[j].y == y[i])
+                                            
+graph.cpp: In member function ‘void Graph::UpdateMaxPLToChild(int)’:
+graph.cpp:395:7: warning: unused variable ‘cPL’ [-Wunused-variable]
+   int cPL = nodes[cIdx].src_to_sink_dist;
+       ^~~
+graph.cpp: In member function ‘bool Graph::IsOnEdge(Node&, int)’:
+graph.cpp:486:33: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         || (cNode.y == tNode.y) && (tNode.x <= maxX && tNode.x >= minX)))
+            ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+graph.cpp:496:33: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         || (pNode.y == tNode.y) && (tNode.x <= maxX && tNode.x >= minX)))
+            ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+graph.cpp: In member function ‘void Graph::replaceParent(Node&, int, int)’:
+graph.cpp:948:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(pNode.parent == idx)
+      ~~~~~~~~~~~~~^~~~~~
+graph.cpp: In member function ‘void Graph::UpdateAllEdgesNSEW()’:
+graph.cpp:1217:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i < dag.size(); ++i)
+                  ~~^~~~~~~~~~~~
+graph.cpp:1227:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i < dag.size(); ++i)
+                  ~~^~~~~~~~~~~~
+graph.cpp:1236:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i < dag.size(); ++i)
+                  ~~^~~~~~~~~~~~
+graph.cpp: In member function ‘int Graph::DeltaW(int, int, bool)’:
+graph.cpp:1329:11: warning: unused variable ‘rrN’ [-Wunused-variable]
+     Node &rrN = cN;
+           ^~~
+graph.cpp: In member function ‘bool Graph::IsSameDir(int, int)’:
+graph.cpp:1402:8: warning: unused variable ‘isSameDir’ [-Wunused-variable]
+   bool isSameDir = false;
+        ^~~~~~~~~
+graph.cpp: In member function ‘int Graph::ComputeWL(int, int, bool, int)’:
+graph.cpp:1530:7: warning: unused variable ‘delta’ [-Wunused-variable]
+   int delta = 0;
+       ^~~~~
+graph.cpp: In member function ‘void Graph::refineSteiner2()’:
+graph.cpp:1622:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(cN.parent != newParent)
+        ~~~~~~~~~~^~~~~~~~~~~~
+graph.cpp: In member function ‘void Graph::refineSteiner()’:
+graph.cpp:1773:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(cN.parent != newParent)
+        ~~~~~~~~~~^~~~~~~~~~~~
+graph.cpp: In member function ‘bool Graph::buildNearestNeighbors_single_node(unsigned int, unsigned int)’:
+graph.cpp:1863:61: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(unsigned abc=0;abc<sorted.size();abc++) if(sorted[abc] == node_idx) { idx = abc; break;}
+                                                              
+graph.cpp: In member function ‘bool Graph::buildNearestNeighborsForSPT(unsigned int)’:
+graph.cpp:2009:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if(tIdx == num_terms)
+          ~~~~~^~~~~~~~~~~~
+graph.cpp:2016:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if(idx == i)
+          ~~~~^~~~
+graph.cpp:2049:41: warning: variable ‘max_id’ set but not used [-Wunused-but-set-variable]
+  unsigned total = 0, max = 0, size = 0, max_id = 0;
+                                         ^~~~~~
+graph.cpp: In member function ‘void Graph::get_children_of_node()’:
+graph.cpp:2392:37: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ((nodes[k].parent == j) && (k != nodes[root_idx].idx) && (k != j))
+                                   ~~^~~~~~~~~~~~~~~~~~~~~~
+graph.cpp: In member function ‘bool Graph::run_PD_brute_force(float)’:
+graph.cpp:2515:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      if (nn1 != root_idx) d += edge_len;
+          ~~~~^~~~~~~~~~~
+graph.cpp:2477:11: warning: unused variable ‘count’ [-Wunused-variable]
+  unsigned count = 0;
+           ^~~~~
+graph.cpp: In member function ‘void Graph::PDBU_new_NN()’:
+graph.cpp:2683:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+           if (nn_node == j) is_found_in_swap_space = true;
+               ~~~~~~~~^~~~
+graph.cpp:2692:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if ((nn_node) > -1 && (nn_node != j) && !is_found_in_swap_space) {
+                                ~~~~~~~~^~~~
+graph.cpp:2696:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+          while (par != j) {
+                 ~~~~^~~~
+graph.cpp: In member function ‘void Graph::constructSteiner()’:
+graph.cpp:2854:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if(nodes[idx].parent != pN.idx
+                               
+graph.cpp:2855:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         && idx != pN.parent
+            ~~~~^~~~~~~~~~~~
+graph.cpp:2891:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                   if(nodes[pN.idx].children[l] == nodes[idx].parent)
+                                                 
+graph.cpp: In member function ‘bool Graph::doSteiner_HoVW()’:
+graph.cpp:3002:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int k=0;k<=tree_struct.size()-3;k++)
+               ~^~~~~~~~~~~~~~~~~~~~~~
+graph.cpp: In member function ‘bool Graph::fix_max_dc()’:
+graph.cpp:3187:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int k=1;k<tree_struct_1darr.size();k++) {
+              ~^~~~~~~~~~~~~~~~~~~~~~~~~
+graph.cpp:3204:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(unsigned ag=0;ag<size;ag++) {
+                      ~~^~~~~
+graph.cpp:3208:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(nn2!=cpar) {
+        ~~~^~~~~~
+graph.cpp:3199:48: warning: variable ‘min_dc_edge_len’ set but not used [-Wunused-but-set-variable]
+    int min_dc_nn = -1, min_dc_new_tree_wl = 0, min_dc_edge_len = edge_len_to_par;
+                                                ^~~~~~~~~~~~~~~
+graph.cpp:3290:12: warning: variable ‘change’ set but not used [-Wunused-but-set-variable]
+   unsigned change = 0;
+            ^~~~~~
+graph.cpp: In member function ‘bool Graph::get_overlap_lshape(std::vector<Node>&, int)’:
+graph.cpp:3414:47: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if ((dont_care_flag !=0) && (dont_care_flag == max_ap_cnt - 1)) {
+                                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+graph.cpp:3526:47: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if ((dont_care_flag !=0) && (dont_care_flag == max_ap_cnt - 1)) {
+                                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+graph.cpp: In member function ‘unsigned int Graph::calc_overlap(std::vector<std::vector<Node> >&)’:
+graph.cpp:3585:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i=0;i<set_of_nodes.size();i++)
+               ~^~~~~~~~~~~~~~~~~~~~
+graph.cpp:3691:53: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+       ov_x = calc_ov_x_or_y(sorted_x, curr_node, "x");
+                                                     ^
+graph.cpp:3693:53: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+       ov_y = calc_ov_x_or_y(sorted_y, curr_node, "y");
+                                                     ^
+graph.cpp:3581:23: warning: variable ‘tmp_ov’ set but not used [-Wunused-but-set-variable]
+  unsigned max_ov = 0, tmp_ov = 0;
+                       ^~~~~~
+graph.cpp: In member function ‘unsigned int Graph::calc_ov_x_or_y(std::vector<Node>&, Node, char*)’:
+graph.cpp:3704:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i=0;i<sorted.size();i++) //Getting position of "curr_node"
+               ~^~~~~~~~~~~~~~
+graph.cpp:3726:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if (ind_of_curr_node < (sorted.size()-1)) {
+      ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+graph.cpp: In member function ‘void Graph::BuildDAG()’:
+graph.cpp:3898:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if(i != cParent)
+            ~~^~~~~~~~~~
+graph.cpp: In member function ‘bool Graph::find_max_dc_node(std::vector<float>&)’:
+graph.cpp:3941:29: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(nodes[j].det_cost_node > max_node_dc) {
+                              
+In file included from /home/software/boost_1_55_0/boost/numeric/ublas/storage.hpp:26:0,
+                 from /home/software/boost_1_55_0/boost/numeric/ublas/vector.hpp:19,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/transform/matrix_transformers.hpp:32,
+                 from /home/software/boost_1_55_0/boost/geometry/strategies/strategies.hpp:54,
+                 from /home/software/boost_1_55_0/boost/geometry/geometry.hpp:35,
+                 from /home/software/boost_1_55_0/boost/geometry.hpp:17,
+                 from graph.cpp:27:
+/home/software/boost_1_55_0/boost/numeric/ublas/traits.hpp: At global scope:
+/home/software/boost_1_55_0/boost/numeric/ublas/traits.hpp:49:28: warning: ‘T {anonymous}::boost_numeric_ublas_abs(const T&) [with T = long unsigned int]’ defined but not used [-Wunused-function]
+   template<> unsigned long boost_numeric_ublas_abs (const unsigned long& t) {
+                            ^~~~~~~~~~~~~~~~~~~~~~~
+/home/software/boost_1_55_0/boost/numeric/ublas/traits.hpp:45:27: warning: ‘T {anonymous}::boost_numeric_ublas_abs(const T&) [with T = unsigned int]’ defined but not used [-Wunused-function]
+   template<> unsigned int boost_numeric_ublas_abs (const unsigned int& t) {
+                           ^~~~~~~~~~~~~~~~~~~~~~~

@@ -115,7 +115,7 @@ class Graph {
     
     void        get_children_of_node();
     void        print_tree();
-    void        print_tree_v2();
+    void        print_tree_v2(ofstream &ofs);
     float       calc_tree_det_cost();
     unsigned    calc_tree_wl_pd();
     unsigned    calc_tree_pl();

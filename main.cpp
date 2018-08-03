@@ -142,15 +142,21 @@ int     main(int argc, char* argv[]){
          << " WL = " << my_graphs[i]->pd_wl
          << " PL = " << my_graphs[i]->pd_pl 
          << endl;
-    if (argument.verbose > 0) {
-  	  my_graphs[i]-> print_tree_v2();
-      cout << endl;
-    }
   }
 	cout << "Finished running P-D algorithm..." << endl;
 	measure.stop_clock("Prim-Dijkstra");
   //****************PD*********************
-	
+
+  if (argument.verbose > 0) {
+    ofstream ofs;
+    ofs.open("PD.txt", fstream::out);
+    for (unsigned i = 0; i < num_nets; ++i) {
+      ofs << "\nNet n" << i << " " << my_graphs[i]->nodes.size() << endl;
+      my_graphs[i]->print_tree_v2(ofs);
+      ofs << endl;
+    }
+  }
+
   //****************PDBU*********************
 	if (argument.pdbu_yes == 1) {
 	  measure.start_clock();
@@ -168,16 +174,21 @@ int     main(int argc, char* argv[]){
            << " PL = " << my_graphs[i]->pdbu_pl 
            << " DC = " << my_graphs[i]->pdbu_dc 
            << endl;
-      if (argument.verbose > 0) {
-  	    my_graphs[i]-> print_tree_v2();
-        cout << endl;
-      }
     }
 	  cout << "Finished running PD-II..." << endl;
 	  measure.stop_clock("PD-II");
-  }
-  //****************PDBU*********************
 
+    if (argument.verbose > 0) {
+      ofstream ofs;
+      ofs.open("PD_II.txt", fstream::out);
+      for (unsigned i = 0; i < num_nets; ++i) {
+        ofs << "\nNet n" << i << " " << my_graphs[i]->nodes.size() << endl;
+        my_graphs[i]->print_tree_v2(ofs);
+        ofs << endl;
+      }
+    }
+  }
+  //****************PD-II*********************
 
   //****************HVW*********************
   if (argument.hvw_yes == 1) {
@@ -195,14 +206,20 @@ int     main(int argc, char* argv[]){
            << " PL = " << my_graphs[i]->st_pl 
            << " DC = " << my_graphs[i]->st_dc 
            << endl;
-      if (argument.verbose > 0) {
-  	    my_graphs[i]-> print_tree_v2();
-        cout << endl;
-      }
     }
 	  cout << "Finished Steiner algorithm..." << endl;
 	  measure.stop_clock("HVW Steinerization");
   //****************HVW*********************
+
+    if (argument.verbose > 0) {
+      ofstream ofs;
+      ofs.open("HVW.txt", fstream::out);
+      for (unsigned i = 0; i < num_nets; ++i) {
+        ofs << "\nNet n" << i << " " << my_graphs[i]->nodes.size() << endl;
+        my_graphs[i]->print_tree_v2(ofs);
+        ofs << endl;
+      }
+    }
 
   //****************DAS*********************
 	  measure.start_clock();
@@ -219,20 +236,19 @@ int     main(int argc, char* argv[]){
            << " PL = " << my_graphs[i]->daf_pl 
            << " DC = " << my_graphs[i]->daf_dc 
            << endl;
-      if (argument.verbose > 0) {
-  	    my_graphs[i]-> print_tree_v2();
-        cout << endl;
-      }
     }
     cout << "Finished DAS algorithm..." << endl;
 	  measure.stop_clock("DAS");
-  }
   //****************DAS*********************
 
-  if (argument.verbose > 5) {
-    for (unsigned i = 0; i < num_nets; ++i) {
-      cout << "\nNet n" << i << " " << my_graphs[i]->nodes.size() << endl;
-      my_graphs[i]->print_tree_v2();
+    if (argument.verbose > 0) {
+      ofstream ofs;
+      ofs.open("DAS.txt", fstream::out);
+      for (unsigned i = 0; i < num_nets; ++i) {
+        ofs << "\nNet n" << i << " " << my_graphs[i]->nodes.size() << endl;
+        my_graphs[i]->print_tree_v2(ofs);
+        ofs << endl;
+      }
     }
   }
 	

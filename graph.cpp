@@ -2410,14 +2410,14 @@ void Graph::print_tree()
 	}
 }
 
-void Graph::print_tree_v2()
+void Graph::print_tree_v2(ofstream &ofs)
 {
 	//count ==> 1 = PD, 2 = PD-II, 3 = HVW, 4 = DAS
 	for(unsigned j = 0;  j < nodes.size();  ++j ) /* For each terminal */
 	{
 		unsigned child = j;
 		unsigned par = nodes[j].parent;
-		cout << child << " " << nodes[child].x << " " << nodes[child].y << " " << par << endl;
+		ofs << child << " " << nodes[child].x << " " << nodes[child].y << " " << par << endl;
 	}
 }
 
