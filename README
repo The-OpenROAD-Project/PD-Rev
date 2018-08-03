@@ -52,4 +52,4 @@ Example runs:
 Prerequisites:
   - Boost library
   - OpenMP
-  - gcc-6.2 or more latest version   
+  - gcc-6.2 or later version   
