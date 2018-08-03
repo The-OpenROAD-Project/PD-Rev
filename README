@@ -54,6 +54,7 @@ Prerequisites:
   - OpenMP
   - gcc-6.2 or later version   
 
-Paper reference:  C. J. Alpert, W.-K. Chow, K. Han, A. B. Kahng, Z. Li, D. Liu and S. Venkatesh, 
-"Prim-Dijkstra Revisited: Achieving Superior Timing-driven Routing Trees", 
-Proc. ACM/IEEE Intl. Symp. on Physical Design, 2018, pp. 10-17.
+Paper reference:  
+    C. J. Alpert, W.-K. Chow, K. Han, A. B. Kahng, Z. Li, D. Liu and S. Venkatesh, 
+    "Prim-Dijkstra Revisited: Achieving Superior Timing-driven Routing Trees", 
+    Proc. ACM/IEEE Intl. Symp. on Physical Design, 2018, pp. 10-17.
