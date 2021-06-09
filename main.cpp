@@ -134,7 +134,7 @@ int     main(int argc, char* argv[]){
   num_nets = my_graphs.size();
 
 	measure.start_clock();
-	omp_set_num_threads(4);
+	//omp_set_num_threads(4);
 	unsigned net_num = argument.net_num ; 
   bool runOneNet = argument.runOneNet;
   cout << "\nGenerating nearest neighbor graph..." << endl;

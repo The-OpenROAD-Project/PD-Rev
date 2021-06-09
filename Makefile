@@ -1,8 +1,7 @@
 CC	= g++
 
-BOOSTDIR = /home/software/boost_1_55_0
 OPT_FLAGS  = -O3
-CFLAGS	= -Wall $(DBG_FLAGS) $(OPT_FLAGS) -I$(BOOSTDIR) -fopenmp -DNDEBUG
+CFLAGS	= -Wall $(DBG_FLAGS) $(OPT_FLAGS) -I$(BOOSTDIR) -fopenmp -DNDEBUG -std=c++11
 LIBS	= -lm
 
 SRCS0	= main.c unixtimer.c err.c dist.c mst1.c\
