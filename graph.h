@@ -51,7 +51,6 @@ using   namespace   std;
 #include <vector>
 #include "node.h"
 #include "edge.h"
-#include <tr1/unordered_map>
 
 class Graph {
   public:
@@ -128,7 +127,7 @@ class Graph {
     bool        fix_max_dc();
     bool        find_max_dc_node(vector<float>& node_and_dc);
     unsigned    calc_overlap(vector < vector<Node> > &set_of_nodes);
-    unsigned    calc_ov_x_or_y(vector<Node>& sorted, Node curr_node, char tag[]);
+    unsigned    calc_ov_x_or_y(vector<Node>& sorted, Node curr_node, const char *tag);
     bool        get_overlap_lshape(vector<Node>& set_of_nodes, int index);
     void        generate_permutations(vector < vector<unsigned> > lists, vector < vector<unsigned> > &result, unsigned depth, vector<unsigned> current);
     void        update_edgecosts_to_parent(unsigned child, unsigned par);

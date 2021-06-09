@@ -20,7 +20,7 @@ OBJS3	= $(SRCS3:.c=.o)
 MAIN3	= pd_rev
 
 pd_rev:	${OBJS3}
-	$(CC) -g ${CFLAGS} -o ${MAIN3} ${OBJS3} $(LIBS) &> make_op.log
+	$(CC) -g ${CFLAGS} -o ${MAIN3} ${OBJS3} $(LIBS)
 
 pd_rev_heap:	${OBJS2}
 	$(CC) ${CFLAGS} -o ${MAIN2} ${OBJS2} $(LIBS)

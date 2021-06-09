@@ -49,7 +49,6 @@
 #include <sstream>
 #include <string>
 #include <queue>
-#include <tr1/unordered_map>
 #include <algorithm>
 #include "graph.h"
 #include <math.h>
@@ -3728,7 +3727,7 @@ unsigned Graph::calc_overlap(vector < vector<Node> > &set_of_nodes) {
 	return max_ov;
 }
 
-unsigned Graph::calc_ov_x_or_y(vector<Node>& sorted, Node curr_node, char tag[]) {
+unsigned Graph::calc_ov_x_or_y(vector<Node>& sorted, Node curr_node, const char *tag) {
 	unsigned ov1 = 0, ov2 = 0;
 	vector<unsigned> tmp_ov, tmp;
 	int ind_of_curr_node = 0;
